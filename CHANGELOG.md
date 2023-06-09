@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.6.0...v1.6.1) (2023-06-09)
+
+
+### Bug Fixes
+
+* Revert to my personal registry path ([79ce981](https://github.com/gerald-pinder-omnicell/enliven-core/commit/79ce981f44449712a18dcb14a929792998c93707))
+
 ## [1.6.0](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.5.0...v1.6.0) (2023-06-09)
 
 

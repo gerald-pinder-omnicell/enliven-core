@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: ublue-os/main
+  - label: enliven-core/main
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: silverblue-main
@@ -16,7 +16,7 @@ ublue_variants:
       - label: mate-main
       - label: base-main
         info: no DE
-  - label: ublue-os/nvidia
+  - label: enliven-core/nvidia
     ks: /kickstart/ublue-os-nvidia.ks
     subvariants:
       - label: latest driver
@@ -37,7 +37,7 @@ ublue_variants:
       - label: mate-nvidia
       - label: base-nvidia
         info: no DE
-  - label: ublue-os/bluefin
+  - label: enliven-core/bluefin
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: bluefin

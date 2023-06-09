@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: enliven-core/main
+  - label: gerald-pinder-omnicell/enliven-core/main
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: silverblue-main
@@ -16,30 +16,30 @@ ublue_variants:
       - label: mate-main
       - label: base-main
         info: no DE
-  - label: enliven-core/nvidia
-    ks: /kickstart/ublue-os-nvidia.ks
-    subvariants:
-      - label: latest driver
-      - label: 470xx driver
-        suffix: -470
-    flavors:
-      - label: silverblue-nvidia
-        info: GNOME
-      - label: kinoite-nvidia
-        info: KDE
-      - label: vauxite-nvidia
-        info: Xfce
-      - label: sericea-nvidia
-        info: Sway
-      - label: cinnamon-nvidia
-        info: Cinnamon
-      - label: lxqt-nvidia
-      - label: mate-nvidia
-      - label: base-nvidia
-        info: no DE
-  - label: enliven-core/bluefin
-    ks: /kickstart/ublue-os.ks
-    flavors:
-      - label: bluefin
-      - label: bluefin-nvidia
-        ks: /kickstart/ublue-os-nvidia.ks
+  # - label: enliven-core/nvidia
+  #   ks: /kickstart/ublue-os-nvidia.ks
+  #   subvariants:
+  #     - label: latest driver
+  #     - label: 470xx driver
+  #       suffix: -470
+  #   flavors:
+  #     - label: silverblue-nvidia
+  #       info: GNOME
+  #     - label: kinoite-nvidia
+  #       info: KDE
+  #     - label: vauxite-nvidia
+  #       info: Xfce
+  #     - label: sericea-nvidia
+  #       info: Sway
+  #     - label: cinnamon-nvidia
+  #       info: Cinnamon
+  #     - label: lxqt-nvidia
+  #     - label: mate-nvidia
+  #     - label: base-nvidia
+  #       info: no DE
+  # - label: enliven-core/bluefin
+  #   ks: /kickstart/ublue-os.ks
+  #   flavors:
+  #     - label: bluefin
+  #     - label: bluefin-nvidia
+  #       ks: /kickstart/ublue-os-nvidia.ks

@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: gerald-pinder-omnicell/enliven-core/main
+  - label: gerald-pinder-omnicell/main
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: silverblue-main
@@ -16,7 +16,7 @@ ublue_variants:
       - label: mate-main
       - label: base-main
         info: no DE
-  # - label: enliven-core/nvidia
+  # - label: gerald-pinder-omnicell/nvidia
   #   ks: /kickstart/ublue-os-nvidia.ks
   #   subvariants:
   #     - label: latest driver
@@ -37,7 +37,7 @@ ublue_variants:
   #     - label: mate-nvidia
   #     - label: base-nvidia
   #       info: no DE
-  # - label: enliven-core/bluefin
+  # - label: gerald-pinder-omnicell/bluefin
   #   ks: /kickstart/ublue-os.ks
   #   flavors:
   #     - label: bluefin

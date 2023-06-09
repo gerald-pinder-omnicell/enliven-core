@@ -57,34 +57,34 @@ To rebase an existing Silverblue/Kinoite machine to the latest release (37):
 
 **Silverblue (GNOME):**
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/silverblue-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/silverblue-main:37
 
 **Kinoite (KDE)**
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/kinoite-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/kinoite-main:37
     
 **LXQt**
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/lxqt-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/lxqt-main:37
     
 **MATE**
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/mate-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/mate-main:37
     
 **Sericea (Sway)** 
 Fedora 38-only, recommended only for advanced users
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/sericea-main:38
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/sericea-main:38
 
 **Vauxite (XFCE)**
     
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/vauxite-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/vauxite-main:37
 
 **Base**
 
 Which does not come with any desktops or window managers:
 
-    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/enliven-core/base-main:37
+    sudo rpm-ostree rebase ostree-unverified-registry:ghcr.io/gerald-pinder-omnicell/base-main:37
     
 </details>
 
@@ -92,7 +92,7 @@ Which does not come with any desktops or window managers:
 
 These images are signed with sisgstore's [cosign](https://docs.sigstore.dev/cosign/overview/). You can verify the signature by downloading the `cosign.pub` key from this repo and running the following command:
 
-    cosign verify --key cosign.pub ghcr.io/gerald-pinder-omnicell/enliven-core/base
+    cosign verify --key cosign.pub ghcr.io/gerald-pinder-omnicell/base
 
 If you're forking this repo you should [read the docs](https://docs.github.com/en/actions/security-guides/encrypted-secrets) on keeping secrets in github. You need to [generate a new keypair](https://docs.sigstore.dev/cosign/overview/) with cosign. The public key can be in your public repo (your users need it to check the signatures), and you can paste the private key in Settings -> Secrets -> Actions.
 

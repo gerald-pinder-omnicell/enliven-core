@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.2](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.6.1...v1.6.2) (2023-06-12)
+
+
+### Bug Fixes
+
+* Don't install so many deps ([901dec5](https://github.com/gerald-pinder-omnicell/enliven-core/commit/901dec5973746cd3715a6dd415a3f70e9205894a))
+
 ## [1.6.1](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.6.0...v1.6.1) (2023-06-09)
 
 

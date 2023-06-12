@@ -8,8 +8,8 @@ ublue_variants:
         info: KDE
       - label: vauxite-main
         info: Xfce
-      - label: sericea-main
-        info: Sway
+      # - label: sericea-main
+      #   info: Sway
       - label: cinnamon-main
         info: Cinnamon
       - label: lxqt-main

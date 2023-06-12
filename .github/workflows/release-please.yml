@@ -26,7 +26,7 @@ jobs:
     needs: release-please
     if: needs.release-please.outputs.releases_created
     container: 
-      image: fedora:38
+      image: fedora:37
       options: --privileged
     permissions:
       contents: write
@@ -38,7 +38,7 @@ jobs:
         with:
           image-name: enliven-core
           installer-repo: releases
-          installer-major-version: 38
+          installer-major-version: 37
           boot-menu-path: boot_menu.yml
       - name: install github CLI
         run: |

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.3](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.6.2...v1.6.3) (2023-07-14)
+
+
+### Bug Fixes
+
+* Only build for Fedora 37 ([49b03db](https://github.com/gerald-pinder-omnicell/enliven-core/commit/49b03db07f3ba461676e1cd76fc2f5381eebc3d2))
+
 ## [1.6.2](https://github.com/gerald-pinder-omnicell/enliven-core/compare/v1.6.1...v1.6.2) (2023-06-12)
 
 
